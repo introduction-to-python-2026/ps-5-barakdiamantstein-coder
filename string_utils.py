@@ -43,7 +43,7 @@ def count_atoms_in_molecule(molecular_formula):
       count[letters] += digits
     else:
       count[letters] = digits
-  print(count)
+  return count
 
 
 def parse_chemical_reaction(reaction_equation):
