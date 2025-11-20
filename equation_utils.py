@@ -1,5 +1,4 @@
-# Add the import statements for necessary sympy functions here
-
+from sympy import solve,symbols,Eq
 
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
@@ -55,8 +54,3 @@ def my_solve(equations, coefficients):
         for coefficient in coefficients:
             coefficient_values.append(float(solution[coefficient]))
         return coefficient_values
-
-
-
-
-
