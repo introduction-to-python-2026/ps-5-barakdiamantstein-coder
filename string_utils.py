@@ -7,13 +7,13 @@ def split_before_uppercases(formula):
 
     for char in formula:
         if char.isupper():
-            if t:  # only append if t is not empty
+            if t:  
                 splited_formula.append(''.join(t))
             t = [char]
         else:
             t.append(char)
 
-    if t:  # append the last chunk after the loop
+    if t:  
         splited_formula.append(''.join(t))
 
     return splited_formula
