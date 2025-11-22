@@ -1,5 +1,11 @@
-import equation_utils
-import string_utils
+# Download string_utils.py from your GitHub repository
+!wget https://raw.githubusercontent.com/yotam-biu/ps5/main/string_utils.py -O /content/string_utils.py
+
+# Download equation_utils.py from your GitHub repository
+!wget https://raw.githubusercontent.com/yotam-biu/ps5/main/equation_utils.py -O /content/equation_utils.py
+
+!wget https://raw.githubusercontent.com/yotam-biu/python_utils/main/lab_setup_do_not_edit.py -O /content/lab_setup_do_not_edit.py
+import lab_setup_do_not_edit
 
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
